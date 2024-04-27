@@ -1,0 +1,2 @@
+"use strict";var initializeBlockVideo=function(i){jQuery(".modal-youtube",i).modalVideo(),jQuery(".modal-vimeo",i).modalVideo({channel:"vimeo"})};jQuery(document).ready((function(){jQuery(".wp-block-video").each((function(){initializeBlockVideo(jQuery(this))}))})),window.acf&&window.acf.addAction("render_block_preview/type=video",initializeBlockVideo);
+//# sourceMappingURL=video-js.js.map
